@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Menu } from "antd";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Loadable from "react-loadable";
 import "./LandingPage.css";
 
@@ -15,7 +15,7 @@ const HomePage = Loadable({
 
 // About
 const About = Loadable({
-  loader: () => import("./views/About/About"),
+  loader: () => import("./views/AboutPage/AboutPage"),
   loading,
 });
 
@@ -47,17 +47,21 @@ const LandingPage = () => (
           </Menu.Item>
         </Menu>
       </Header>
-      <Content style={{ minHeight: "1000px", padding: "30px 0px 30px 0px" }}>
+      <Content style={{ padding: "0 50px", minHeight: "500px" }}>
         <div className="site-layout-content">
           <Switch>
-            <Route path="/form" exact component={FormPage} />
-            <Route path="/about" exact component={About} />
+            <Route path="/form" component={FormPage} />
+            <Route path="/about" component={About} />
             <Route path="/" name="HomePage" component={HomePage} />
           </Switch>
         </div>
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Ant Design ©2018 Created by Ant UED
+        <a href="https://membership.acs.org.au/flattenthecurvehack.html">
+          #flattenthecurvehack Hackathon ACS 2020
+        </a>
+        <span style={{ margin: "0px 5px 0px 5px" }}>|</span>
+        <a href="/about">Team LSNB</a>
       </Footer>
     </Router>
   </Layout>
