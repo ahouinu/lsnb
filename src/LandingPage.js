@@ -47,7 +47,9 @@ const LandingPage = () => (
           </Menu.Item>
         </Menu>
       </Header>
-      <Content style={{ padding: "0 50px", minHeight: "500px" }}>
+      <Content
+        style={{ padding: "0 50px", margin: "50px 0 0 0", minHeight: "500px" }}
+      >
         <div className="site-layout-content">
           <Switch>
             <Route path="/form" component={FormPage} />
