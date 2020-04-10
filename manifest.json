@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Agile Standup Tool",
+  "name": "A demo app created by team LSNB during the #flattenthecurvehack hackathon hosted by ACS in 2020",
   "icons": [
     {
       "src": "favicon.ico",

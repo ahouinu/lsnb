@@ -1,0 +1,1 @@
+{"version":3,"sources":["FormPage.css"],"names":[],"mappings":"AAAA,WACE,SAAU,CACV,WACF,CACA,MACE,WACF","file":"8.0e7f5bcb.chunk.css","sourcesContent":[".form-card {\n  width: 40%;\n  margin: auto;\n}\nInput {\n  width: 400px;\n}\n"]}
