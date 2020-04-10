@@ -1,7 +1,9 @@
 import React from "react";
-import { Layout, Menu, Empty } from "antd";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Layout, Menu } from "antd";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import Loadable from "react-loadable";
+import "./LandingPage.css";
+
 const { Header, Content, Footer } = Layout;
 
 const loading = () => <div>Loading...</div>;
@@ -26,9 +28,14 @@ const FormPage = Loadable({
 const LandingPage = () => (
   <Layout className="layout">
     <Router>
-      <Header>
-        <div className="logo" />
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
+      <Header style={{ backgroundColor: "white" }}>
+        <div className="logo">Agile Standup Tools</div>
+        <Menu
+          className="menu"
+          theme="light"
+          mode="horizontal"
+          defaultSelectedKeys={["1"]}
+        >
           <Menu.Item key="1">
             <Link to="/">Home</Link>
           </Menu.Item>
@@ -40,7 +47,7 @@ const LandingPage = () => (
           </Menu.Item>
         </Menu>
       </Header>
-      <Content style={{ padding: "0 50px", height: "1000px" }}>
+      <Content style={{ minHeight: "1000px", padding: "30px 0px 30px 0px" }}>
         <div className="site-layout-content">
           <Switch>
             <Route path="/form" exact component={FormPage} />
