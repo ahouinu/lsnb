@@ -1,0 +1,49 @@
+/* .icon-class {
+  display: block;
+  font-family: lucida console,Consolas,Monaco,andale mono,ubuntu mono,monospace;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transform: scale(.83);
+  transform: scale(.83);
+} */
+
+.icon-class {
+  font-size: 48px;
+}
+
+.icon-class:hover {
+  color: #08c;
+  transform: scale(1.2);
+}
+
+/* .icon-list {
+  position: relative;
+  float: left;
+  width: 16.66%;
+  height: 100px;
+  margin: 3px 0;
+  padding: 10px 0 0;
+  overflow: hidden;
+  color: #555;
+  text-align: center;
+  list-style: none;
+  background-color: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: color .3s ease-in-out,background-color .3s ease-in-out;
+  transition: color .3s ease-in-out,background-color .3s ease-in-out;
+}
+
+.icon-list:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  line-height: 110px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all .3s cubic-bezier(.18,.89,.32,1.28);
+  transition: all .3s cubic-bezier(.18,.89,.32,1.28);
+} */
