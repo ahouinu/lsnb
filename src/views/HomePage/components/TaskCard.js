@@ -1,10 +1,10 @@
 import React from "react";
-import { Avatar, Card } from "antd";
+import { Avatar, Card, Button } from "antd";
 import QuestionAnswer from "./QuestionAnswer";
 import "../HomePage.css";
 
 const { Meta } = Card;
-const Task = ({ task }) => {
+const Task = ({ task, handleDelete }) => {
   return (
     <Card className="qa-card">
       <Meta
@@ -15,6 +15,7 @@ const Task = ({ task }) => {
       />
       <br />
       <QuestionAnswer content={task.content} />
+      <Button onClick={() => handleDelete(task.id)}>Delete</Button>
     </Card>
   );
 };
