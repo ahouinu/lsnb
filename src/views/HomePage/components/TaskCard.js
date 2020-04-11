@@ -1,11 +1,12 @@
 import React from "react";
-import { Avatar, Button, Card } from "antd";
+import { Button, Card } from "antd";
 import QuestionAnswer from "./QuestionAnswer";
 import "../HomePage.css";
 import { CloseOutlined } from "@ant-design/icons";
 import RAvatar from "react-avatar";
 
 const { Meta } = Card;
+
 const Task = ({ task, handleDelete }) => {
   return (
     <Card
@@ -18,24 +19,17 @@ const Task = ({ task, handleDelete }) => {
         />
       }
       extra={
-        <Button className="del-btn" onClick={() => handleDelete(task.id)}>
+        <Button
+          className="del-btn"
+          style={{ fontSize: "8px" }}
+          onClick={() => handleDelete(task.id)}
+        >
           <CloseOutlined />
         </Button>
       }
     >
       <QuestionAnswer content={task.content} />
     </Card>
-    // <Card className="qa-card">
-    //   <Meta
-    //     avatar={
-    //       <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-    //     }
-    //     title={task.author}
-    //   />
-    //   <br />
-    //   <QuestionAnswer content={task.content} />
-    //   <Button onClick={() => handleDelete(task.id)}>Delete</Button>
-    // </Card>
   );
 };
 

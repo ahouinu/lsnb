@@ -5,21 +5,23 @@ export const defaultTask = {
     {
       id: uuidv4(),
       author: "Zac",
-      content: [{ id: uuidv4(), question: "how are u", answer: "good" }],
+      content: [{ id: uuidv4(), question: "Status", answer: "Coding 💻" }],
     },
   ],
   Tue: [
     {
       id: uuidv4(),
       author: "Eric",
-      content: [{ id: uuidv4(), question: "how are u", answer: "good" }],
+      content: [{ id: uuidv4(), question: "Status", answer: "Designing 🎨" }],
     },
   ],
   Wed: [
     {
       id: uuidv4(),
       author: "Tim",
-      content: [{ id: uuidv4(), question: "how are u", answer: "good" }],
+      content: [
+        { id: uuidv4(), question: "Status", answer: "Trouble Maker 💢" },
+      ],
     },
   ],
   Thu: [],
