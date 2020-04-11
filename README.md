@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built during [#flattenthecurvehack](https://membership.acs.org.au/flattenthecurvehack.html) by team LSNB.
 
-## Available Scripts
+## Agile Standup Tool
+This is a quick web demo for an agile standup tool. 
 
-In the project directory, you can run:
+[Live Demo](http://ahouinu.github.io/lsnb)
 
-### `yarn start`
+## Details
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Background
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+As the COVID-19 pandemic going on, many organisations have started to adopt a work-from-home workflow to keep their businesses running; many teams are doing daily standups to catch up with each other.
 
-### `yarn test`
+However, doing standups via video conferencing may be a new idea, especially to non-tech companies and teams. Besides, due to network issues, they may lose each other during the standups, which make this communication approach inefficient.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Solution
 
-### `yarn build`
+To solve this problem and help businesses to run their standups smoothly, we come up with this Agile Standup Tool. For each team member, it takes <1 minute every day during the standup to record their updates in a form. These records is aggregated into a weekly dashboard, where the manager or scrum master can easily have an overview of how's the team going.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### UI Design
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Dashboard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![dashboard](https://user-images.githubusercontent.com/7725516/79036827-5aec2300-7c0f-11ea-8242-9332a7547e3a.png)
 
-### `yarn eject`
+#### Form
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![form](https://user-images.githubusercontent.com/7725516/79036830-663f4e80-7c0f-11ea-8610-1a1e58980a04.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Point of Difference
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We want to build a small tool which can be used out of the box. As many companies are already using some tools like Trello, Jira or Monday, we're trying to work as a plugin or supplementary tool to their existing workflow. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+It helps both managers and team members do standups more efficiently and have a clear overview of the teams' progress.
 
-## Learn More
+### Potential Difficulties
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* To support different workflows, we need to integrate with multiple APIs - G Suite, Microsoft Office (including Teams and Outlook)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Asking users to fill out a form every day is still a pain. In the future, we can leverage on Machine Learning and Natural Language Processing to extract record and generate reports on the fly while the meeting is being conducted.
