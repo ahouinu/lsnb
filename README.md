@@ -33,6 +33,10 @@ We want to build a small tool which can be used out of the box. As many companie
 
 It helps both managers and team members do standups more efficiently and have a clear overview of the teams' progress.
 
+We also ran a quick poll on our slack channels and we believe there's a market for this tool.
+
+![poll](https://user-images.githubusercontent.com/7725516/79038488-f6d05b80-7c1c-11ea-8a59-77a63a42dbb2.png)
+
 ## Key Scenarios
 
 ### Zac the Worker
