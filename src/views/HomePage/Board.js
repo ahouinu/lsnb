@@ -6,7 +6,12 @@ import { defaultTask } from "../../defaultTasks";
 const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const color = ["#FFFFFF", "#84DCC6", "#A5FFD6", "#FFA69E", "#FF686B"];
 const Board = () => {
-  const allTasks = JSON.parse(localStorage.getItem("allTasks")) || defaultTask;
+  let allTasks = JSON.parse(localStorage.getItem("allTasks"));
+  const storageEmpty = Object.values(allTasks).every((col) => col.length === 0);
+  if (storageEmpty) {
+    localStorage.setItem("allTasks", JSON.stringify(defaultTask));
+    allTasks = defaultTask;
+  }
   return (
     <div>
       <Row
