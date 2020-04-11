@@ -7,7 +7,9 @@ const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const color = ["#FFFFFF", "#84DCC6", "#A5FFD6", "#FFA69E", "#FF686B"];
 const Board = () => {
   let allTasks = JSON.parse(localStorage.getItem("allTasks"));
-  const storageEmpty = Object.values(allTasks).every((col) => col.length === 0);
+  const storageEmpty =
+    allTasks === null ||
+    Object.values(allTasks).every((col) => col.length === 0);
   if (storageEmpty) {
     localStorage.setItem("allTasks", JSON.stringify(defaultTask));
     allTasks = defaultTask;
