@@ -33,7 +33,21 @@ We want to build a small tool which can be used out of the box. As many companie
 
 It helps both managers and team members do standups more efficiently and have a clear overview of the teams' progress.
 
-### Potential Difficulties
+## Key Scenarios
+
+### Zac the Worker
+
+Zac is a recent graduated international student and just started working. Due to COVID-19, his company is practising work-from-home and daily standups. Sometimes Zac finds it hard to understand his colleagues due to their accents or network issues, and it's not as easy as he could ask for clarification in-person.
+
+With the help of our tool, Zac can now write down his updates and check what his peers are up to from the dashboard.
+
+### Jack the Manager
+
+Jack is the manager of a finance team. His team just started working from home recently due to the pandemic. He would like to track the team's progress, but he doesn't have a suitable tool. What he does now is to note down each team member's activities every day, which is inefficient.
+
+By using this tool, Jack can now have a clear overview of the team's progress and doesn't have to take notes by himself every day.
+
+## Potential Difficulties
 
 * To support different workflows, we need to integrate with multiple APIs - G Suite, Microsoft Office (including Teams and Outlook)
 
