@@ -29,7 +29,7 @@ const LandingPage = () => (
   <Layout className="layout">
     <Router>
       <Header style={{ backgroundColor: "white" }}>
-        <div className="logo">Agile Standup Tools</div>
+        <div className="logo">Agile Standup Tool</div>
         <Menu
           className="menu"
           theme="light"
