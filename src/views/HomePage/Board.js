@@ -12,7 +12,11 @@ const Board = () => {
       <Row
         gutter="[60, 60]"
         align="center"
-        style={{ minHeight: "800px", overflow: "auto" }}
+        style={{
+          minHeight: "800px",
+          overflow: "auto",
+          margin: "30px 0px 10px 0px",
+        }}
       >
         {/* <DayCol day='Mon'/> */}
         {DAYS.map((day, idx) => {
