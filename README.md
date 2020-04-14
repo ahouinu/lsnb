@@ -4,7 +4,7 @@ This project is built during [#flattenthecurvehack](https://membership.acs.org.a
 
 Congrats! We got the 3rd place in the Future of Work Challenge! [winners](https://membership.acs.org.au/flattenthecurvehack.html)
 
-![post](https://user-images.githubusercontent.com/7725516/79223996-b4698180-7e9d-11ea-85aa-f9afddec3f7f.png)
+[LSNB - Future of Work Challenge Finalist #FlattenTheCurve](https://youtu.be/rBVj2532hnk)
 
 ## Agile Standup Tool
 
