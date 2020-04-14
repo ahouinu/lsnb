@@ -2,7 +2,7 @@ This project is built during [#flattenthecurvehack](https://membership.acs.org.a
 
 ## Update
 
-Congrats! [We got the 3rd place in the Future of Work Challenge!](https://membership.acs.org.au/flattenthecurvehack.html)
+Congrats! ㊗️🍻🎉 We got the 3rd place in our first hackathon 👨🏻‍💻!
 
 We're glad to see there are many hackers who enjoyed this event and came up with some [great ideas!](https://www.youtube.com/channel/UCFO1yK88H2oi2GeT7AANu3g) Thanks [ACS](https://www.acs.org.au/) for hosting this event!
 
