@@ -1,6 +1,13 @@
 This project is built during [#flattenthecurvehack](https://membership.acs.org.au/flattenthecurvehack.html) by team LSNB.
 
+## Update
+
+Congrats! We got the 3rd place in the Future of Work Challenge! [winners](https://membership.acs.org.au/flattenthecurvehack.html)
+
+![post](https://user-images.githubusercontent.com/7725516/79223996-b4698180-7e9d-11ea-85aa-f9afddec3f7f.png)
+
 ## Agile Standup Tool
+
 This is a quick web demo for an agile standup tool. 
 
 [Live Demo](http://ahouinu.github.io/lsnb)
