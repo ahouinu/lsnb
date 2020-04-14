@@ -4,6 +4,8 @@ This project is built during [#flattenthecurvehack](https://membership.acs.org.a
 
 Congrats! [We got the 3rd place in the Future of Work Challenge!](https://membership.acs.org.au/flattenthecurvehack.html)
 
+We're glad to see there are many hackers who enjoyed this event and came up with some [great ideas!](https://www.youtube.com/channel/UCFO1yK88H2oi2GeT7AANu3g) Thanks [ACS](https://www.acs.org.au/) for hosting this event!
+
 Pitch Video: [LSNB - Future of Work Challenge Finalist #FlattenTheCurve](https://youtu.be/rBVj2532hnk)
 
 ![announcement ](https://user-images.githubusercontent.com/7725516/79224718-f2b37080-7e9e-11ea-98f9-95946c6e3503.png)
